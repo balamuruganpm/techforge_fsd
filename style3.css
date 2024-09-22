@@ -1,0 +1,60 @@
+.par {
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+    position: relative;
+}
+
+div h1 {
+    color: blue;
+    text-align: end;
+}
+
+div .sq {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 300px;
+    top: 50px;
+    background-color: rgb(255, 208, 0);
+}
+
+.flex-example {
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    /* row-gap: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-example div {
+    width: 200px;
+    border-radius: 12px;
+    height: 200px;
+    text-align: center;
+    /* flex-grow: 1; */
+    font-size: xx-large;
+}
+
+.flex-example div:first-child {
+    background-color: aqua;
+    /* flex-grow: 1; */
+}
+
+.flex-example div:nth-child(2) {
+    /* flex-grow: 1; */
+    background-color: rgb(0, 4, 255);
+}
+
+.flex-example div:nth-child(3) {
+    background-color: rgb(51, 255, 0);
+}
+
+.flex-example div:last-child {
+    background-color: rgb(255, 0, 0);
+}

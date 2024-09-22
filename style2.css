@@ -1,0 +1,22 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+}
+
+h1, h2 {
+    width: max-content;
+    border: 1px solid black;
+    padding: 20px 60px 0 30px;
+    margin: 40px 60px 20px 0px;
+    border-radius: 12px;
+    background-color: aqua;
+    /* box-shadow: 10px 40px 15px rgb(255, 0, 0); */
+}
+
+img {
+    box-shadow: 1px 1px 15px rgb(255, 0, 0);
+    border: 3px solid black;
+    filter: drop-shadow(10px 2px 5px blue);
+    /* filter: blur(2px); */
+    filter: contrast(200%);
+}
